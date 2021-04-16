@@ -16,7 +16,7 @@
     "url": "https://github.com/siknow/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/siknow/frontend-project-lvl1#readme",
-  "type": "module", 
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
   }
