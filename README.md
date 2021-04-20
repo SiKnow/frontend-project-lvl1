@@ -5,3 +5,5 @@
 ### Linter status:
 [![Linter](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml)
 
+Asciinema:
+https://asciinema.org/a/kA3TlwPPiVidVuA2WU8g1xT5F
