@@ -1,6 +1,6 @@
 install: install-deps
 
-install-deps: 
+install-deps:
 	npm ci
 
 brain-games:
@@ -11,3 +11,5 @@ publish:
 
 lint:
 	npx eslint .
+
+
