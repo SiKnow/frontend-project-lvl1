@@ -1,5 +1,3 @@
-# https://eslint.org/docs/user-guide/configuring#specifying-environments
-
 env:
   es2021: true
   node: true
