@@ -5,5 +5,8 @@
 ### Linter status:
 [![Linter](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml)
 
-Asciinema:
+Asciinema brain-even:
 https://asciinema.org/a/kA3TlwPPiVidVuA2WU8g1xT5F
+
+Asciinema brain-calc:
+https://asciinema.org/a/fI6JesSFh5pkZO2iy1Rywt8G0
