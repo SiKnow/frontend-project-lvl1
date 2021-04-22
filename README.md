@@ -13,3 +13,6 @@ https://asciinema.org/a/fI6JesSFh5pkZO2iy1Rywt8G0
 
 Asciinema brain-gcd:
 https://asciinema.org/a/pGtpz2usRWxWfv29oS6tPjFsn
+
+[![asciicast](https://asciinema.org/a/409252.svg)](https://asciinema.org/a/409252)
+<a href="https://asciinema.org/a/409252" target="_blank"><img src="https://asciinema.org/a/409252.svg" /></a>
