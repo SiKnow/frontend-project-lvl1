@@ -41,3 +41,4 @@ for (let i = 0; i < 3; i += 1) {
 if (counter === 3) {
   console.log(`Congratulations, ${name}! You win!`);
 }
+
