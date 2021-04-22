@@ -6,13 +6,13 @@
 [![Linter](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml)
 
 Asciinema brain-even:
-https://asciinema.org/a/kA3TlwPPiVidVuA2WU8g1xT5F
+[![asciicast](https://asciinema.org/a/408594.svg)](https://asciinema.org/a/408594)
 
 Asciinema brain-calc:
-https://asciinema.org/a/fI6JesSFh5pkZO2iy1Rywt8G0
+[![asciicast](https://asciinema.org/a/408901.svg)](https://asciinema.org/a/408901)
 
 Asciinema brain-gcd:
-https://asciinema.org/a/pGtpz2usRWxWfv29oS6tPjFsn
+[![asciicast](https://asciinema.org/a/409226.svg)](https://asciinema.org/a/409226)
 
+Asciinema brain-progression:
 [![asciicast](https://asciinema.org/a/409252.svg)](https://asciinema.org/a/409252)
-<a href="https://asciinema.org/a/409252" target="_blank"><img src="https://asciinema.org/a/409252.svg" /></a>
