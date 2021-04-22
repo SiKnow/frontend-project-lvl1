@@ -12,3 +12,4 @@ Asciinema brain-calc:
 https://asciinema.org/a/fI6JesSFh5pkZO2iy1Rywt8G0
 
 Asciinema brain-gcd:
+https://asciinema.org/a/pGtpz2usRWxWfv29oS6tPjFsn
