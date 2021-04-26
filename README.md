@@ -6,16 +6,16 @@
 [![Linter](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml)
 
 Asciinema brain-even:
-[![asciicast](https://asciinema.org/a/408594.svg)](https://asciinema.org/a/408594)
+[![asciicast](https://asciinema.org/a/410005.svg)](https://asciinema.org/a/410005)
 
 Asciinema brain-calc:
-[![asciicast](https://asciinema.org/a/408901.svg)](https://asciinema.org/a/408901)
+[![asciicast](https://asciinema.org/a/410007.svg)](https://asciinema.org/a/410007)
 
 Asciinema brain-gcd:
-[![asciicast](https://asciinema.org/a/409226.svg)](https://asciinema.org/a/409226)
+[![asciicast](https://asciinema.org/a/410009.svg)](https://asciinema.org/a/410009)
 
 Asciinema brain-progression:
-[![asciicast](https://asciinema.org/a/409252.svg)](https://asciinema.org/a/409252)
+[![asciicast](https://asciinema.org/a/410010.svg)](https://asciinema.org/a/410010)
 
 Asciinema brain-prime:
-[![asciicast](https://asciinema.org/a/409275.svg)](https://asciinema.org/a/409275)
+[![asciicast](https://asciinema.org/a/410011.svg)](https://asciinema.org/a/410011)
