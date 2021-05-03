@@ -1,12 +1,12 @@
-import { getRandom } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 export const isEven = () => {
-  const randomNumber = getRandom(100);
-  let result = 'no';
-  if (randomNumber % 2 === 0) {
-    result = 'yes';
+  const question = getRandomNumber(1, 100);
+  let answer = 'no';
+  if (question % 2 === 0) {
+    answer = 'yes';
   }
-  return [result, randomNumber];
+  return [question, answer];
 };
 
-export const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+export const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
