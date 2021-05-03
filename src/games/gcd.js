@@ -1,4 +1,4 @@
-import { getRandom } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 const getGreatestDivisor = (num1, num2) => {
   let result = 0;
@@ -11,12 +11,12 @@ const getGreatestDivisor = (num1, num2) => {
 };
 
 export const findGSD = () => {
-  const firstNum = getRandom(100);
-  const secondNum = getRandom(100);
-  const result = String(getGreatestDivisor(firstNum, secondNum));
+  const firstNum = getRandomNumber(1, 100);
+  const secondNum = getRandomNumber(1, 100);
+  const answer = String(getGreatestDivisor(firstNum, secondNum));
   const question = `${firstNum} ${secondNum}`;
 
-  return [result, question];
+  return [question, answer];
 };
 
-export const rules = 'Find the greatest common divisor of given numbers';
+export const rule = 'Find the greatest common divisor of given numbers';
