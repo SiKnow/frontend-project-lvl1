@@ -1,10 +1,10 @@
-import { getRandom } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 export const calculate = () => {
-  const rightOperand = getRandom(10);
-  const leftOperand = getRandom(10);
+  const rightOperand = getRandomNumber(1, 100);
+  const leftOperand = getRandomNumber(1, 100);
 
-  let result = 0;
+  let answer = 0;
 
   const operators = ['+', '-', '*'];
   const operator = operators[Math.floor(Math.random() * operators.length)];
@@ -12,16 +12,16 @@ export const calculate = () => {
 
   switch (operator) {
     case '+':
-      result = String(leftOperand + rightOperand);
+      answer = String(leftOperand + rightOperand);
       break;
     case '-':
-      result = String(leftOperand - rightOperand);
+      answer = String(leftOperand - rightOperand);
       break;
     default:
-      result = String(leftOperand * rightOperand);
+      answer = String(leftOperand * rightOperand);
       break;
   }
-  return [result, question];
+  return [question, answer];
 };
 
-export const rules = 'What is the result of the expression?';
+export const rule = 'What is the result of the expression?';
