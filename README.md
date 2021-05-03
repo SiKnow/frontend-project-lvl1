@@ -1,7 +1,7 @@
 # WELCOME TO THE BRAIN GAMES! 
----
-### Brain Games - is a set of 5 mathematical console games that allow interaction with the players. ###
 
+### Brain Games - is a set of 5 console games that allow interaction with the players.
+---
 ### Hexlet tests | Maintainability | Linter status 
 [![Actions Status](https://github.com/SiKnow/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/SiKnow/frontend-project-lvl1) [![Linter](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/SiKnow/frontend-project-lvl1/actions/workflows/linter.yml)
 
