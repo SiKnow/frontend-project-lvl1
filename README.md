@@ -8,6 +8,7 @@
 ## Setup ##
 ### To run the game, install it by using:
     ~$ make install
+
 ## Demonstrations
 
 ### Brain-even:
