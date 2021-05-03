@@ -1,4 +1,4 @@
-import { getRandom } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -15,10 +15,10 @@ const isPrime = (number) => {
 };
 
 export default () => {
-  const num = getRandom(100);
-  const result = isPrime(num) ? 'yes' : 'no';
+  const question = getRandomNumber(1, 100);
+  const answer = isPrime(question) ? 'yes' : 'no';
 
-  return [result, num];
+  return [question, answer];
 };
 
-export const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+export const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
