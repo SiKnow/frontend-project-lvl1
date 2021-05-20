@@ -10,13 +10,16 @@ const getGreatestDivisor = (num1, num2) => {
   return result;
 };
 
-export const findGSD = () => {
-  const firstNum = getRandomNumber(1, 100);
-  const secondNum = getRandomNumber(1, 100);
-  const answer = String(getGreatestDivisor(firstNum, secondNum));
-  const question = `${firstNum} ${secondNum}`;
+const getRound = () => {
+  const num1 = getRandomNumber(1, 100);
+  const num2 = getRandomNumber(1, 100);
+
+  const answer = String(getGreatestDivisor(num1, num2));
+  const question = `${num1} ${num2}`;
 
   return [question, answer];
 };
 
-export const rule = 'Find the greatest common divisor of given numbers';
+const rule = 'Find the greatest common divisor of given numbers';
+
+export default () => ({ rule, getRound });
