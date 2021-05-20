@@ -14,11 +14,13 @@ const isPrime = (number) => {
   return true;
 };
 
-export default () => {
+const getRound = () => {
   const question = getRandomNumber(1, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
 
   return [question, answer];
 };
 
-export const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
+export default () => ({ rule, getRound });
