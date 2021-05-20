@@ -1,27 +1,36 @@
 import getRandomNumber from '../utilities.js';
 
-export const calculate = () => {
-  const rightOperand = getRandomNumber(1, 100);
-  const leftOperand = getRandomNumber(1, 100);
-
-  let answer = 0;
-
-  const operators = ['+', '-', '*'];
-  const operator = operators[Math.floor(Math.random() * operators.length)];
-  const question = `${leftOperand} ${operator} ${rightOperand}`;
+const calculateExpression = (leftOperand, rightOperand, operator) => {
+  let result = '';
 
   switch (operator) {
     case '+':
-      answer = String(leftOperand + rightOperand);
+      result = String(leftOperand + rightOperand);
       break;
     case '-':
-      answer = String(leftOperand - rightOperand);
+      result = String(leftOperand - rightOperand);
       break;
     default:
-      answer = String(leftOperand * rightOperand);
+      result = String(leftOperand * rightOperand);
       break;
   }
+  return result;
+};
+
+const getRound = () => {
+  const rightOperand = getRandomNumber(1, 100);
+  const leftOperand = getRandomNumber(1, 100);
+
+  const operators = ['+', '-', '*'];
+  const randomOperator = getRandomNumber(0, operators.length - 1);
+  const operator = operators[randomOperator];
+
+  const question = `${leftOperand} ${operator} ${rightOperand}`;
+  const answer = calculateExpression(leftOperand, rightOperand, operator);
+
   return [question, answer];
 };
 
-export const rule = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?';
+
+export default () => ({ rule, getRound });
