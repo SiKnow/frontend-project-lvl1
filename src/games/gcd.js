@@ -1,13 +1,10 @@
 import getRandomNumber from '../utilities.js';
 
 const getGreatestDivisor = (num1, num2) => {
-  let result = 0;
-  for (let i = 0; i <= num1; i += 1) {
-    if (num1 % i === 0 && num2 % i === 0) {
-      result = i;
-    }
+  if (num2 === 0) {
+    return num1;
   }
-  return result;
+  return getGreatestDivisor(num2, num1 % num2);
 };
 
 const getRound = () => {
