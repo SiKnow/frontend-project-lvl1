@@ -1,20 +1,16 @@
 import getRandomNumber from '../utilities.js';
 
-const calculateExpression = (leftOperand, rightOperand, operator) => {
-  let result = '';
-
+const calculate = (leftOperand, rightOperand, operator) => {
   switch (operator) {
     case '+':
-      result = String(leftOperand + rightOperand);
-      break;
+      return String(leftOperand + rightOperand);
     case '-':
-      result = String(leftOperand - rightOperand);
-      break;
+      return String(leftOperand - rightOperand);
+    case '*':
+      return String(leftOperand * rightOperand);
     default:
-      result = String(leftOperand * rightOperand);
-      break;
+      throw new Error(`Unknow operator: '${operator}'!`);
   }
-  return result;
 };
 
 const getRound = () => {
@@ -22,11 +18,11 @@ const getRound = () => {
   const leftOperand = getRandomNumber(1, 100);
 
   const operators = ['+', '-', '*'];
-  const randomOperator = getRandomNumber(0, operators.length - 1);
-  const operator = operators[randomOperator];
+  const operatorIndex = getRandomNumber(0, operators.length - 1);
+  const operator = operators[operatorIndex];
 
   const question = `${leftOperand} ${operator} ${rightOperand}`;
-  const answer = calculateExpression(leftOperand, rightOperand, operator);
+  const answer = calculate(leftOperand, rightOperand, operator);
 
   return [question, answer];
 };
